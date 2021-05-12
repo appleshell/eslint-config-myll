@@ -3,6 +3,7 @@
   "version": "0.0.6",
   "description": "my eslint config",
   "main": "index.js",
+  "repository": "git@github.com:appleshell/eslint-config-myll.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
