@@ -5,7 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:appleshell/eslint-config-myll.git",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "np --no-cleanup --yolo --no-publish"
   },
   "author": "appleshell",
   "license": "ISC",
@@ -21,5 +22,8 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.23.0",
     "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "devDependencies": {
+    "np": "^7.5.0"
   }
 }
